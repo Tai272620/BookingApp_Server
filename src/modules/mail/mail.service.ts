@@ -9,12 +9,8 @@ interface MailOption {
     attachments?: any
 }
 
-// import emailConfirm from './templates/emailConfirm'
-import reminderEmail from './templates/reminderEmail';
 // import sendOtp from './templates/sendOtp'
 export const templates = {
-    // emailConfirm,
-    reminderEmail,
 }
 
 @Injectable()
